@@ -11,7 +11,7 @@ const product={
 
 //const {label:productLabel,stock}=product
 //console.log(productLabel)
-//console.log(stock)
+
 
 // const {label,stock,price,rating=4.3}=product
 // console.log(label)
