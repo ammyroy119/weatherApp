@@ -16,7 +16,7 @@ const express=require('express');
 const { dirname } = require("path");
 
 const publicDirPath=path.join(__dirname,'./public')
-//console.log(__dirname)
+
 const app=express()
 app.use(express.static(publicDirPath))
 
