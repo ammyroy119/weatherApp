@@ -17,11 +17,18 @@ const { dirname } = require("path");
 
 const publicDirPath=path.join(__dirname,'./public')
 
+
 const app=express()
 app.use(express.static(publicDirPath))
+
 
 
 app.listen(3000,()=>{
     console.log('server is running at port '+3000)
 })
+
+const practice=()=>{
+    console.log('i am adding this function for practice...')
+}
+practice()
 
